@@ -15,6 +15,7 @@
 		39F211D51B954DB200A3ECDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F211D41B954DB200A3ECDD /* Images.xcassets */; };
 		39F211D81B954DB200A3ECDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F211D61B954DB200A3ECDD /* LaunchScreen.xib */; };
 		39F211E41B954DB200A3ECDD /* SwitchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F211E31B954DB200A3ECDD /* SwitchDemoTests.m */; };
+		39F211EF1B957DC300A3ECDD /* ColorControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F211EE1B957DC300A3ECDD /* ColorControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		39F211DD1B954DB200A3ECDD /* SwitchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F211E21B954DB200A3ECDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F211E31B954DB200A3ECDD /* SwitchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchDemoTests.m; sourceTree = "<group>"; };
+		39F211ED1B957DC300A3ECDD /* ColorControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorControl.h; sourceTree = "<group>"; };
+		39F211EE1B957DC300A3ECDD /* ColorControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				39F211C91B954DB200A3ECDD /* AppDelegate.m */,
 				39F211CE1B954DB200A3ECDD /* ViewController.h */,
 				39F211CF1B954DB200A3ECDD /* ViewController.m */,
+				39F211ED1B957DC300A3ECDD /* ColorControl.h */,
+				39F211EE1B957DC300A3ECDD /* ColorControl.m */,
 				39F211D11B954DB200A3ECDD /* Main.storyboard */,
 				39F211D41B954DB200A3ECDD /* Images.xcassets */,
 				39F211D61B954DB200A3ECDD /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 				39F211CA1B954DB200A3ECDD /* AppDelegate.m in Sources */,
 				39F211D01B954DB200A3ECDD /* ViewController.m in Sources */,
 				39F211C71B954DB200A3ECDD /* main.m in Sources */,
+				39F211EF1B957DC300A3ECDD /* ColorControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

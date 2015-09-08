@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ColorControl.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    ColorControl *cc=[[ColorControl alloc]initWithFrame:self.view.bounds];
+    [self.view addSubview:cc];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
